@@ -1,6 +1,8 @@
 # MemoryCard: The Database App made by gamers, for gamers
 
-**MemoryCard** is an Android app that is makes managing your game library across multiple platform ecosystems easier. Most game platforms like Playstation Plus, Xbox Live, Steam and Nintendo Online already have places to implement 
+**MemoryCard** is an Android app that is makes managing your game library across multiple platform ecosystems easier. Most game platforms like Playstation Plus, Xbox Live, Steam and Nintendo Online already have places to implement the tracking of a user's game library, but these places are only for that specific platform. 
+
+MemoryCard aims to be asingulsr place where you can track your game collections amongst all platforms,  as well as being easy to use to track your playtime for individual games. 
 
 
 ## Requirements for using the app:
@@ -62,7 +64,7 @@ To add playtime for a game, select the platform that the game belongs to, then p
 ## Known Issues
 
 - **Reload**: Unfortunately, any new games or updated playtime you add when using the app only stays persistent on restart of the app while your phone (or emulator, in the case of Android Studio) is running. If you are using Android Studio to run the app, every time you restart the actual running of the code, your CSV file may not stay persistent in your emulator.
- - **Adding Playstation games**: Sometimes, adding a game with the console name being "PS1", "PS2" etc. is not
+ - **Adding Playstation games**: Sometimes, adding a game with the console name being "PS1", "PS2" etc. does not work. Try "Playstation "
  - **Updating favorite count in Statistics**: Sometimes, the number of the console with most favorited games in the Statistics tab will not update unless more than 1 game with the status of being a favorite has been added since reload
  - **Loading time for Images**: Since images are being pulled from the internet via the user's input, it may take a few seconds for images to load on in the library screen.
 
