@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stopwatchStart">Start</string>
+    <string name="stopwatchStop">Stop</string>
+    <string name="stopwatchReset">Reset</string>
+</resources>

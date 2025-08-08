@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_light">
+
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="75dp"
+        android:background="@color/purple_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:layout_marginTop="100dp"
+            android:text="@string/consolePrompt" />
+
+        <Spinner
+            android:id="@+id/consoleDropdown"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="150dp"
+            android:background="@color/white"
+            android:popupBackground="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="200dp"
+            android:text="@string/gamePrompt"
+            android:textColor="@color/white" />
+
+        <Spinner
+            android:id="@+id/gameDropdown"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="250dp"
+            android:background="@color/white"
+            android:popupBackground="@color/white" />
+
+        <TextView
+            android:id="@+id/time_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:layout_marginTop="325dp"
+            android:textSize="50sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:background="@color/purple_light">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/StopwatchTag"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        
+        <Button
+            android:id="@+id/stopwatchStartButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationY="150dp"
+            android:layout_gravity="center"
+            android:text="@string/stopwatchStart"
+
+            android:theme="@style/Button.White"
+            android:backgroundTint="@color/purple_light"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/stopwatchStopButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationY="200dp"
+            android:layout_gravity="center"
+            android:text="@string/stopwatchStop"
+            android:backgroundTint="@color/purple_light"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/stopwatchResetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationY="250dp"
+            android:layout_gravity="center"
+            android:text="@string/stopwatchReset"
+            android:backgroundTint="@color/purple_light"
+            android:textColor="@color/white"/>
+
+
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

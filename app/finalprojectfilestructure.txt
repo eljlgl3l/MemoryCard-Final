@@ -1,0 +1,58 @@
+This is the final file structure of the app:
+
+
+Model:
+    Game
+    User
+    ConsoleLibrary
+
+Controllers:
+    Controllers to add data to a game
+        GameActivity
+        AddGameActivity
+        LeaveReviewActivity - gets user input to add a review to the game.review string
+        StopwatchActivity - calculates time played and adds to a double in the game model
+        FavoriteGamesActivity
+        RecentlyPlayedActivity
+        GameSearchActivity
+        TrackingSearchActivity - searches for a game to add stopwatch time to via stopwatch time
+
+
+
+    Controllers to add data or game or otherwise pertaining a console library
+        LibraryActivity
+        ConsoleGamesActivity
+        FavoriteConsoleGamesActivity - used in conjunction with games
+        AllConsoleGamesActivity
+        CompletedConsoleGamesActivity
+
+
+
+    Controllers pertaining to viewing the users profile
+        ProfileActivity
+        ReviewsActivity - shows user reviews
+
+
+Views/XML Files and the activity they pertain to
+
+activity_add_game.xml = AddGameActivity
+activity_all_console_games.xml = ConsoleGamesActivity
+activity_completed_console_games.xml = CompletedConsoleGamesLibrary
+activity_console_games.xml = ConsoleGamesActivity
+activity_favorite_console_games.xml = FavoriteConsoleGamesActivity
+activity_favorite_games.xml = FavoriteGamesActivity
+activity_game.xml = GameActivity
+activity_game_search.xml = GameSearchActivity
+activity_leave_review.xml = LeaveReviewActivity
+activity_library.xml = LibraryActivity
+activity_profile.xml = ProfileActivity
+activity_recently_played.xml = RecentlyPlayedActivity
+activity_reviews.xml = ReviewsActivity
+activity_stopwatch.xml = StopwatchActivity
+activity_tracking_search.xml = TrackingSearchActivity (What would this be? Just a search bar or the same exact as GameSearchActivity?) TBD
+
+
+
+splash_activity.xml = ???
+activity_stopwatch_done = StopwatchActivity (Not sure if this is needed)
+activity_edit_profile.xml - depreciated

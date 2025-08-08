@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">MemoryCard</string>
+    <string name="AddGameFragment">Add Game View</string>
+    <string name="LibraryFragment">Library View</string>
+    <string name="ProfileFragment">Profile View</string>
+    <string name="StopwatchFragment">Stopwatch View</string>
+
+
+    <string name="LibraryTag">Library</string>
+    <string name="ProfileTag">Profile</string>
+    <string name="StopwatchTag">Stopwatch</string>
+    <string name="AddGameTag">Add Game</string>
+    <string name="GameInfoTag">Game Info</string>
+
+
+    <string name="LibrarySubTag">Platforms</string>
+    <string name="AllGamesTag">All Games</string>
+    <string name="FavoriteGamesTag">Favorite Games</string>
+    <string name="CompletedGamesTag">Completed</string>
+    <string name="ProfileXbox">XBOX</string>
+    <string name="ProfilePlaystation">PLAYSTATION</string>
+    <string name="ProfileNintendoSwitch">NINTENDO SWITCH</string>
+    <string name="ProfileSteam">STEAM</string>
+
+
+    <string name="gameCover">Game Cover</string>
+    <string name="gamePlatform">Platform</string>
+    <string name="gameGenre">Genre</string>
+    <string name="gameReleaseDate">Release Date</string>
+    <string name="gamePublisher">Publisher</string>
+    <string name="userRating">Your Rating</string>
+    <string name="userReview">Your Review</string>
+    <string name="userPlaytime">Your Playtime</string>
+    <string name="recentPlaytime">Recent Playtime</string>
+    <string name="profileStats">Statistics</string>
+    <string name="totalRecentPlaytime">Recent Playtime:</string>
+    <string name="lifetimePlaytime">Lifetime Playtime:</string>
+    <string name="favoriteConsole">Favorite Console:</string>
+    <string name="favoriteGenre">Favorite Genres:</string>
+    <string name="game_button">game button</string>
+    <string name="back_button">back button</string>
+
+
+    <string name="completedBox">Completed?</string>
+    <string name="favoriteBox">Favorite?</string>
+    <string name="addGame"> ADD GAME</string>
+    <string name="addRating">Rating (1–5)</string>
+    <string name="addGameCoverUrl">Add Cover Art From URL</string>
+    <string name="addReview">Game Review</string>
+    <string name="addCompletionyear">Year Completed</string>
+    <string name="addPublisher">Game Publisher</string>
+    <string name="addReleaseYear">Release Year</string>
+    <string name="addGameGenre">Game Genre</string>
+    <string name="addGameConsole">Game Console</string>
+
+
+    <string name="allGames">All Games</string>
+    <string name="favorites">Favorites</string>
+
+
+    <string name="Title">Game Title</string>
+    <string name="platformExample">Game Platform</string>
+    <string name="genreExample">Game Genre</string>
+    <string name="releaseDateExample">Game Release Date</string>
+    <string name="publisherExample">Game Publisher</string>
+    <string name="ratingExample">Game Rating</string>
+    <string name="reviewExample">Game Review</string>
+    <string name="yourPlaytimeExample">Your Game Playtime</string>
+    <string name="recentPlaytimeExample">Recent Game Playtime</string>
+
+
+    <string name="profileRecentPlaytime">12.7 hours (past two weeks)</string>
+    <string name="profileLifetimePlaytime">200.7 hours (40 games)</string>
+    <string name="profileFavoriteConsole">Playstation 3 (3 favorited games)</string>
+    <string name="profileCompletionRate">FPS (6 Games)</string>
+    <string name="completionRate">Completion Rate:</string>
+
+
+    <string name="consolePrompt">Please select a console:</string>
+    <string name="gamePrompt">Please select a game to track:</string>
+
+    <string name="stopwatch">Stopwatch</string>
+    <string name="menuAddGame">AddGame</string>
+    <string name="profile">Profile</string>
+    <string name="library">Library</string>
+
+
+
+
+
+</resources>

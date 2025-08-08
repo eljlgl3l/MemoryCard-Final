@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/purple_dark">
+
+        <FrameLayout
+            android:id="@+id/TopBar"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:background="@color/purple_light"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <ImageButton
+                android:id="@+id/backButton"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="start|center"
+                android:src="@drawable/backarrowicon"
+                app:tint="@color/white"
+                android:scaleType="fitCenter"
+                android:padding="8dp"
+                android:background="@null"
+                android:contentDescription="@string/back_button"/>
+
+            <TextView
+                android:id="@+id/gameTitleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/Title"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+
+        <ImageView
+            android:id="@+id/gameCover"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:adjustViewBounds="true"
+            android:background="@color/purple_light"
+            android:contentDescription="@string/gameCover">
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/gamePlatform"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/gamePlatformTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/platformExample"
+                android:textColor="@color/white"
+                android:textSize="15sp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/gameGenre"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/gameGenreTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/genreExample"
+                android:textColor="@color/white"
+                android:textSize="15sp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/gameReleaseDate"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/gameReleaseDateTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/releaseDateExample"
+                android:textColor="@color/white"
+                android:textSize="15sp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/gamePublisher"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/gamePublisherTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/publisherExample"
+                android:textColor="@color/white"
+                android:textSize="15sp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/userRating"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/userRatingTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/ratingExample"
+                android:textColor="@color/white"
+                android:textSize="15sp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/userReview"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/userReviewTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/reviewExample"
+                android:textColor="@color/white"
+                android:textSize="15sp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/userPlaytime"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/userPlaytimeTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/yourPlaytimeExample"
+                android:textColor="@color/white"
+                android:textSize="15sp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/recentPlaytime"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/recentPlaytimeTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/recentPlaytimeExample"
+                android:textColor="@color/white"
+                android:textSize="15sp">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
